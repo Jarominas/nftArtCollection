@@ -1,0 +1,56 @@
+.nft-collection {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+.card__row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items:center;
+    gap: .5rem;
+
+    
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        
+    }
+    p{
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+.card-box {
+    width: 370px;
+    height: 460px;
+    padding: .6rem;
+    text-align: center;
+    border: 0.5px solid rgba(227, 227, 227, 1);
+    box-shadow: 0px 0px 10px 0px rgba(221, 221, 221, 0.5);
+
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.box-img > img {
+    max-width: 7rem;
+}
+
+.box-img > img:nth-child(2) {
+    max-width: 10rem;
+}
+
+@media (max-width: 900px) {
+    .card-box {
+        width: 100%;
+    }
+}

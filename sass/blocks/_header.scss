@@ -1,0 +1,116 @@
+.header {
+    
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    max-width: 1170px;
+    height: 100vh;
+    
+    position: relative;
+}
+
+
+.background-arrow-1 {
+    position: absolute;
+
+    left: 27%;
+    bottom: 47%;
+}
+
+.background-arrow-2 {
+    position: absolute;
+
+    left: 4%;
+    bottom: 34%
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    max-width: 925px;
+
+    position: relative;
+
+}
+
+.word-art {
+    position: relative;
+
+    &::after {
+        content: "";
+        display: block;
+        background-image: url(../img/header/art-circle.png);
+        
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-repeat: no-repeat;
+        
+        top: 3%;
+        left: -30%;
+        
+    }
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 685px;
+
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.buttons__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    justify-content: center;
+    margin-bottom: 9rem;
+}
+
+.logo__row {
+    background: linear-gradient(268.56deg, #322372 -1.81%, #592889 101.82%);
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;   
+    
+    max-width: 1170px;
+}
+
+@media (max-width: 992px) {
+    .header {
+        margin-top: 8rem;
+    }
+}
+
+@media (max-width: 840px) {
+
+    .logo__row > img {
+        width: max(6rem);
+        
+    }
+}
+@media (max-width: 657px) {
+
+    .logo__row > img {
+        width: max(4rem);
+        
+    }
+    .buttons__row {
+        flex-direction: column;
+        
+    }
+}

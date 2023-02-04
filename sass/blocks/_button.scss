@@ -1,0 +1,49 @@
+.red-button {
+    
+    padding: max(1vh, 1.2rem);
+    background-color: $button-color;
+
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: #ffffff9d;
+    }
+}
+
+.transperant-button {
+    
+    padding: max(1vh, 1.2rem);
+    background-color: transparent;
+
+    border: 1px solid rgba(124, 137, 142, 1);
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $button-color;
+        color: #ffffff9d;
+        cursor: pointer;
+    }
+}
+
+.box-button {
+    display: inline-block;
+    padding: 10px 43px;
+
+    background-color: transparent;
+
+    border: 1px solid rgba(124, 137, 142, 1);
+    border-radius: 2rem;
+    color: black;
+    text-decoration: none;
+    
+
+    &:hover {
+        background-color: $button-color;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
