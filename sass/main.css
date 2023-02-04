@@ -335,6 +335,7 @@ p {
 @media (max-width: 992px) {
   .header {
     margin-top: 8rem;
+    height: auto;
   }
 }
 @media (max-width: 840px) {
@@ -363,7 +364,7 @@ p {
   gap: 0.5rem;
 }
 .card__row h3 {
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .card__row p {
